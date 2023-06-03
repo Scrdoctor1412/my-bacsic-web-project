@@ -1,0 +1,297 @@
+@font-face {
+    font-family: monsterrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.navbar{
+    font-family: monsterrat;
+    background-color: white;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-contact-btn{
+    border: 0;
+    color: white;
+    background-color: #1a1b1f;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-middle-text a{
+    font-size: 12px;
+    color: #00000060;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.text1{
+    margin-top: 80px;
+    font-family: monsterrat;
+    font-size: 12px;
+    color: #00000060;
+    font-weight: 500;
+}
+
+.text2 h2{
+    font-family: monsterrat;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.text2{
+    margin-bottom: 30px;
+}
+
+.learn-more{
+    margin-top: 50px;
+
+}
+
+
+.learn-more1,.learn-more2{
+    margin-top: 50px;
+    font-family: monsterrat;
+    text-align: left;
+}
+
+@media screen and (max-width:992px) {
+    .learn-more1,.learn-more2{
+        text-align: center;
+    }
+}
+
+.learn-more1 h2.learn-more2 h2{
+    font-weight: 400;
+    font-size: 36px;
+}
+.learn-more1 button, .learn-more2 button{
+    border: 0;
+    color: white;
+    background-color: #1a1b1f;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.learn-more2 button{
+    justify-content: left!important;
+}
+@media screen and (min-width: 992px){
+    .learn-more1 button, .learn-more2 button{
+        margin-top: 50px;
+    }
+}
+/* .learn-more img{
+    width: 60%;
+    height: 75%;
+} */
+.below-content-text, .below-content-big-text{
+    font-family: monsterrat;
+}
+.below-content-text p{
+    margin-top: 50px;
+    font-weight: 500;
+    color: #00000060;
+}
+
+.below-content-big-text h2{
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.accessories-content .card{
+    border: 0;
+    margin-right: auto;
+    
+}
+
+.accessories-content .card img{
+    border-radius: 0 0 0 0;
+    transition: 0.5s;
+
+}
+
+.accessories-content .card:hover img{
+    transition: 0.5s;
+    /* width: 110%; */
+    transform: scale(1.1);
+}
+
+.accessories-content{
+    font-family: monsterrat;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .accessories-content .card{
+        margin: auto;
+    }
+}
+
+.accessories-content .card a{
+    text-decoration: none;
+}
+
+.accessories-content .card p{
+    color: #00000060;
+}
+
+
+@media screen and (min-width:768px) {
+    
+    .thinkShield{
+        position: relative;
+    }
+    .thinkShield .card{
+        position: absolute;
+        color: white;
+        --bs-body-bg: none;
+        margin-top: 60px;
+        border: 0px;
+        margin-left: 20px;
+    }
+    .thinkShield .card .card-body{
+        font-family: monsterrat;
+
+    }
+    .thinkShield .card img{
+        width: 120px;
+        height: 34px;
+        margin-left: 15px;
+    }
+    .thinkShield .card .card-body h5{
+        font-weight: 400;
+        font-size: 54px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .thinkShield .card{
+        margin-top: 20px;
+        border: 0px;
+        --bs-body-bg: none;
+    }
+    .thinkShield .card .card-body{
+        color: black;
+        text-align: center;
+        font-family: monsterrat;
+    }
+    .thinkShield .card img{
+        content: url(https://static.lenovo.com/ww/campaigns/2020/think-brand/lenovo-laptop-thinkpad-series-logo.png);
+        width: 120px;
+        height: 34px;
+        margin: auto;
+    }
+    .thinkShield .card .card-body h5{
+        font-weight: 400;
+        font-size: 48px/57px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .premiereSupport{
+        position: relative;
+    }
+    .premiereSupport .card{
+        position: absolute;
+        color: white;
+        --bs-body-bg: none;
+        margin-top: 60px;
+        border: 0px;
+        margin-left: 20px;
+        width: 39rem;
+    }
+    .premiereSupport .card .card-body{
+        font-family: monsterrat;
+    }
+    .premiereSupport .card img{
+        width: 285px;
+        height: 76px;
+        margin: 15px;
+    }
+    .premiereSupport .card .card-body h5{
+        font-weight: 400;
+        font-size: 54px;
+    }
+    .premiereSupport .card .card-body ul{
+        padding: 0;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .premiereSupport .card{
+        margin-top: 20px;
+        border: 0px;
+        --bs-body-bg: none;
+        width: 100%;
+    }
+    .premiereSupport .card .card-body{
+        color: black;
+        text-align: left;
+        font-family: monsterrat;
+    }
+    .premiereSupport .card img{
+        content: url(https://static.lenovo.com/ww/services/images/ww-lenovo-premier-support-logo-black@2x.png);
+        width: 285px;
+        height: 76px;
+        margin: 15px;
+    }
+    .premiereSupport .card .card-body h5{
+        font-weight: 400;
+        font-size: 48px/57px;
+    }
+    .premiereSupport .card .card-body ul{
+        padding: 0;
+        margin: 15px;
+    }
+}
+
+.footer-icon .icon{
+    margin-top: 50px;
+    background-color: #f7f7f7;
+
+}
+
+.footer-icon ul{
+    justify-content: center;
+    list-style: none;
+}
+.footer-icon ul li{
+    margin: 25px 20px;
+}
+.footer-icon a i{
+    font-size: 35px;
+    text-align: center;
+} 
+.footer-icon a{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content{
+    text-align: center;
+    font-family: monsterrat;
+    margin: auto;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+}
+
+.footer-content ul li{
+    justify-content: center;
+}
+
+.footer-content ul li a{
+    text-decoration: none;
+    color: #00000060;
+    font-weight: 400;
+    font-size: 14px;
+}

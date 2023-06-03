@@ -1,0 +1,30 @@
+@font-face {
+    font-family: monsterrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.navbar{
+    font-family: monsterrat;
+    background-color: white;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-contact-btn{
+    border: 0;
+    color: white;
+    background-color: #1a1b1f;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-middle-text a{
+    font-size: 12px;
+    color: #00000060;
+    font-weight: 500;
+    margin-left: 20px;
+}
