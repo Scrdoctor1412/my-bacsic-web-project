@@ -1,172 +1,494 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
-    <link rel="stylesheet" href="css/about.css">
-    <title>About</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+  <link rel="stylesheet" href="css/about.css">
+  <title>About</title>
 </head>
+
 <body>
   <!-- NAVIGATION BAR -->
-    <nav class="navbar navbar-expand-lg bg-body-light sticky-top ps-0 pe-0">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            ThinkPad
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-            <div class="navbar-nav mx-auto nav-middle-text">
-              <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
-              <a class="nav-link" href="marketplace.html">MARKETPLACE</a>
-              <a class="nav-link" href="community.html">COMMUNITY</a>
-              <a class="nav-link" href="support.html">SUPPORT</a>
-            </div>
-          </div>
-          <button class="nav-contact-btn">CONTACT US</button>
-        </div>
-    </nav>
-    <!--  -->
+  <nav class="navbar navbar-expand-lg bg-body-light sticky-top ps-0 pe-0">
     <div class="container-fluid">
-
-      <!-- CAROUSEL/SLIDER -->
-      <div class="row">
-        <div id="carouselExampleCaptions" class="carousel slide ps-0 pe-0" data-bs-ride="false">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="image/aboutslide1.webp" class="d-block w-100 h-150" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <img src="https://static.lenovo.com/ww/homepage/banner/2023/lenovo-mwc-2023-wordmark.png" alt="">
-                <br>
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="image/aboutslide2.webp" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <img src="https://static.lenovo.com/ww/homepage/banner/2022/lenovo-ces-2023-wordmark.png" alt="">
-                <br>
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="image/aboutslide3.webp" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <img src="https://p4-ofp.static.pub/ShareResource/na/homepage/heros/lenovo_lenovo-f1-rgb-logo.svg" alt="">
-                <br>
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+      <a class="navbar-brand" href="index.html">
+        ThinkPad
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav mx-auto nav-middle-text">
+          <a class="nav-link" aria-current="page" href="about.html">ABOUT</a>
+          <a class="nav-link" href="marketplace.html">MARKETPLACE</a>
+          <a class="nav-link" href="community.html">COMMUNITY</a>
+          <a class="nav-link" href="support.html">SUPPORT</a>
         </div>
       </div>
-      <!--  -->
+      <button class="nav-contact-btn">CONTACT US</button>
+    </div>
+  </nav>
+  <!-- END OF THE NAVBAR -->
+  <div class="container-fluid">
 
-      
-      <!-- ABOUT OPTIONS -->
-      <div class="row">
-        <ul class="d-flex felx-row about-options">
-          <li> <a href="">OUR COMPANY</a> </li>
-          <li> <a href="">EVENTS</a> </li>
-        </ul>
+    <!-- CAROUSEL/SLIDER -->
+    <div class="row">
+      <div id="carouselExampleCaptions" class="carousel slide ps-0 pe-0" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/aboutslide1.webp" class="d-block w-100 h-150" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <img src="https://static.lenovo.com/ww/homepage/banner/2023/lenovo-mwc-2023-wordmark.png" alt="">
+              <br>
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/aboutslide2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <img src="https://static.lenovo.com/ww/homepage/banner/2022/lenovo-ces-2023-wordmark.png" alt="">
+              <br>
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="image/aboutslide3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <img src="https://p4-ofp.static.pub/ShareResource/na/homepage/heros/lenovo_lenovo-f1-rgb-logo.svg" alt="">
+              <br>
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <!-- THE CONTENT  -->
-      <div class="container">
-        <!-- ABOUT OPTIONS CONTENT -->
+    </div>
+    <!-- END OF THE CAROUSEL -->
+
+
+    <!-- ABOUT OPTIONS -->
+    <div class="row">
+      <ul class="d-flex felx-row about-options">
+        <li> <a href="#0" class="changeOpt" rel="company">OUR COMPANY</a> </li>
+        <li> <a href="#0" class="changeOpt" rel="event">EVENTS</a> </li>
+      </ul>
+    </div>
+    <!-- THE CONTENT  -->
+    <div class="container">
+      <!-- ABOUT OPTIONS CONTENT -->
       <div class="row about-options-content">
 
         <div class="col-lg">
           <div class="card" style="width: 190px; height: 384px;">
-            <img src="https://p1-ofp.static.pub/fes/cms/2021/07/13/60tk1gd6bbzruaue9ytykef2i5a0pj119709.jpg"" class="card-img-top" alt="...">
+            <img src="image/about-page/company-1.webp"" class="
+              card-img-top" alt="...">
             <div class="card-body">
-              <h3>Consumer Electronics Show </h3>
-              <p class="card-text">Vegas trade show of new consumer tech</p>
+              <h3>Who We Are </h3>
+              <p class="card-text">We think and act differently</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg">
           <div class="card" style="width: 190px; height: 384px;">
-            <img src="https://p2-ofp.static.pub/fes/cms/2021/07/13/hgs4t1hrpqoz1jqq9dp1iqahilwe43337587.jpg" class="card-img-top" alt="...">
+            <img src="image/about-page/company-2.avif"
+              class="card-img-top" alt="...">
             <div class="card-body">
-              <h3>Mobile World Congress </h3>
-              <p class="card-text">World's largest show of mobile tech</p>
+              <h3>Our Leaders </h3>
+              <p class="card-text">Delivering on commitment</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg">
           <div class="card" style="width: 190px; height: 384px;">
-            <img src="https://p2-ofp.static.pub/fes/cms/2021/07/13/qsu3s7tju9milmgugelcecit0e0rb0914963.jpg" class="card-img-top" alt="...">
+            <img src="image/about-page/company-3.avif"
+              class="card-img-top" alt="...">
             <div class="card-body">
-              <h3>Lenovo Tech World </h3>
-              <p class="card-text">Lenovo's virtual technology innovation conference</p>
+              <h3>Smarter Technology For All </h3>
+              <p class="card-text">Transforming the world, intelligently</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg">
           <div class="card" style="width: 190px; height: 384px;">
-            <img src="https://p3-ofp.static.pub/fes/cms/2021/07/13/eprm4uagvz4i8jvkc8tf3ze4r333fu414740.jpg" class="card-img-top" alt="...">
+            <img src="image/about-page/company-4.avif"
+              class="card-img-top" alt="...">
             <div class="card-body">
-              <h3>Tech Life/IFA </h3>
-              <p class="card-text">Europe's largest consumer tech show</p>
+              <h3>Diversity & inclusion </h3>
+              <p class="card-text">Different is out biggest strength</p>
             </div>
           </div>
         </div>
 
         <div class="col-lg">
           <div class="card" style="width: 190px; height: 384px;">
-            <img src="https://p2-ofp.static.pub/fes/cms/2021/07/13/wwteoo2c8runcjwb7fp8igejeheeja802994.jpg" class="card-img-top" alt="...">
+            <img src="image/about-page/company-5.avif"
+              class="card-img-top" alt="...">
             <div class="card-body">
-              <h3>Web Summit </h3>
-              <p class="card-text">World's largest technology conference</p>
+              <h3>Susatinablity </h3>
+              <p class="card-text">Striving to improve our planet</p>
             </div>
           </div>
         </div>
       </div>
-      <!--  -->
+      <!-- END OF ABOUT OPTIONS CONTENT -->
 
-      <!-- MORE CONTENT -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img src="https://p3-ofp.static.pub/fes/cms/2021/05/12/la1f0kefioqxn72vm1quy0a8lsve7h580667.jpg" alt="">
-          <h5>Lenovo Foundation</h5>
-          <a href="">Actions speak louder than words</a>
-        </div>
-      </div>
-      <!--  -->
-      </div>
-      <!--  -->
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-      crossorigin="anonymous"></script>
-    <script src="JS/app.js"></script>
+    <!-- END OF THE CONTENT -->
+
+    <!-- Footer icon-->
+    <div class="row footer-icon ">
+      <div class="col-md-12 icon">
+        <ul class="d-flex flex-row">
+          <li>
+            <a href="#" class="">
+              <i class="fa-brands fa-facebook" style="color: #1976a1;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="">
+              <i class="fa-brands fa-twitter" style="color: #1976a1;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="">
+              <i class="fa-brands fa-youtube" style="color: #1976a1;"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="">
+              <i class="fa-brands fa-pinterest" style="color: #1976a1;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END OF FOOTER CONTENT -->
+
+    <!-- FOOTER CONTENT -->
+    <div class="row">
+      <div class="col-md-3 footer-content">
+        <h3>About lenovo</h3>
+        <ul class="list-unstyled">
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/about/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/about/">
+              Our Company
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News" target="_blank"
+              href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News">
+              News
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations"
+              target="_blank"
+              href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations">
+              Investor Relations
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility">
+              Sustainability
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/compliance/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/compliance/">
+              Product Compliance
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/product-security/landing/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/product-security/landing/">
+              Product Security
+            </a>
+          </li>
+
+          <li>
+            <a class="lenovopensource" data-href="/solutions/HT511330" href="/vn/vi/solutions/HT511330">
+              Lenovo Open Source
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information">
+              Legal Information
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://jobs.lenovo.com/" target="_blank" href="https://jobs.lenovo.com/">
+              Jobs at Lenovo
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-3 footer-content">
+        <h3>Shop</h3>
+        <ul class="list-unstyled">
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/about/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/about/">
+              Our Company
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News" target="_blank"
+              href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News">
+              News
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations"
+              target="_blank"
+              href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations">
+              Investor Relations
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility">
+              Sustainability
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/compliance/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/compliance/">
+              Product Compliance
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/product-security/landing/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/product-security/landing/">
+              Product Security
+            </a>
+          </li>
+
+          <li>
+            <a class="lenovopensource" data-href="/solutions/HT511330" href="/vn/vi/solutions/HT511330">
+              Lenovo Open Source
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information">
+              Legal Information
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://jobs.lenovo.com/" target="_blank" href="https://jobs.lenovo.com/">
+              Jobs at Lenovo
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-3 footer-content">
+        <h3>Support</h3>
+        <ul class="list-unstyled">
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/about/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/about/">
+              Our Company
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News" target="_blank"
+              href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News">
+              News
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations"
+              target="_blank"
+              href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations">
+              Investor Relations
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility">
+              Sustainability
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/compliance/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/compliance/">
+              Product Compliance
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/product-security/landing/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/product-security/landing/">
+              Product Security
+            </a>
+          </li>
+
+          <li>
+            <a class="lenovopensource" data-href="/solutions/HT511330" href="/vn/vi/solutions/HT511330">
+              Lenovo Open Source
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information">
+              Legal Information
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://jobs.lenovo.com/" target="_blank" href="https://jobs.lenovo.com/">
+              Jobs at Lenovo
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-3 footer-content">
+        <h3>Resources</h3>
+        <ul class="list-unstyled">
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/about/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/about/">
+              Our Company
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News" target="_blank"
+              href="https://news.lenovo.com/?linkTrack=footer:About Lenovo_News">
+              News
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations"
+              target="_blank"
+              href="https://static.lenovo.com/ww/lenovo/investor_relations.html?linkTrack=footer:About Lenovo_Investor Relations">
+              Investor Relations
+            </a>
+          </li>
+
+          <li>
+            <a class=""
+              data-href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/social_responsibility/sustainability_reports/?linkTrack=footer:About Lenovo_Social Responsibility">
+              Sustainability
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/compliance/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/compliance/">
+              Product Compliance
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/product-security/landing/" target="_blank"
+              href="https://www.lenovo.com/vn/vn/product-security/landing/">
+              Product Security
+            </a>
+          </li>
+
+          <li>
+            <a class="lenovopensource" data-href="/solutions/HT511330" href="/vn/vi/solutions/HT511330">
+              Lenovo Open Source
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information"
+              target="_blank"
+              href="https://www.lenovo.com/vn/vn/legal/?linkTrack=footer:About Lenovo_Legal Information">
+              Legal Information
+            </a>
+          </li>
+
+          <li>
+            <a class="" data-href="https://jobs.lenovo.com/" target="_blank" href="https://jobs.lenovo.com/">
+              Jobs at Lenovo
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- END OF FOOTER CONTENT -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+  <script src="JS/about.js"></script>
 </body>
+
 </html>
