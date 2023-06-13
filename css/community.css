@@ -13,7 +13,7 @@
     text-transform: uppercase;
 }
 
-.nav-contact-btn{
+.navbar>div>.nav-contact-btn{
     border: 0;
     color: white;
     background-color: #1a1b1f;
@@ -27,4 +27,80 @@
     color: #00000060;
     font-weight: 500;
     margin-left: 20px;
+}
+
+.dropdown{
+    font-family: monsterrat;
+    margin-top: 50px;
+}
+
+.dropdown button{
+    color: #1a1b1f;
+    background-color: white;
+}
+
+.dropdown>a{
+    text-decoration: none;
+    color: #1a1b1f;
+    font-weight: 600;
+}
+
+.post-heading{
+    margin-top: 30px;
+}
+
+.ques-content>div>i{
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.ques-content>div .ques-info h5 a{
+    text-decoration: none;
+    color: #1a1b1f;
+}
+
+.ques-content>div .ques-info{
+    margin-left: 20px;
+}
+
+.footer-icon .icon{
+    margin-top: 50px;
+    background-color: #f7f7f7;
+
+}
+
+.footer-icon ul{
+    justify-content: center;
+    list-style: none;
+}
+.footer-icon ul li{
+    margin: 25px 20px;
+}
+.footer-icon a i{
+    font-size: 35px;
+    text-align: center;
+} 
+.footer-icon a{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content{
+    text-align: center;
+    font-family: monsterrat;
+    margin: auto;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+}
+
+.footer-content ul li{
+    justify-content: center;
+}
+
+.footer-content ul li a{
+    text-decoration: none;
+    color: #00000060;
+    font-weight: 400;
+    font-size: 14px;
 }
