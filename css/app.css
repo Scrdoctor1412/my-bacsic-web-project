@@ -65,6 +65,13 @@
     .learn-more1,.learn-more2{
         text-align: center;
     }
+    .learn-more1 h2, .learn-more2 h2{
+        margin-top: 20px;
+    }
+    .learn-more1 ul,.learn-more2 ul{
+        list-style: none;
+        
+    }
 }
 
 .learn-more1 h2.learn-more2 h2{
@@ -88,10 +95,8 @@
         margin-top: 50px;
     }
 }
-/* .learn-more img{
-    width: 60%;
-    height: 75%;
-} */
+
+
 .below-content-text, .below-content-big-text{
     font-family: monsterrat;
 }
@@ -133,7 +138,7 @@
 
 @media screen and (max-width:992px) {
     .accessories-content .card{
-        margin: auto;
+        margin: 20px auto;
     }
 }
 

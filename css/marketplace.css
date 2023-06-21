@@ -58,11 +58,20 @@
     padding-top: 20px;
 }
 
-.row .products{
+.row>div .products{
     flex-wrap: wrap;
 }
 
-.row .products .card{
+.row>div .products .card{
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .row>div .products .card{
+        margin-left: 20px;
+        margin-right: auto;
+        /* margin: auto; */
+        margin-bottom: 20px;
+    }
 }
