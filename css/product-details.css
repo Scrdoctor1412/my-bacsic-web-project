@@ -43,13 +43,31 @@ body{
 }
 
 .row .left-side ul li{
+    
     margin-right: 20px;
 }
+
+
 
 .row .left-side ul li a img{
     width: 75px;
     height: 75px;
 
+}
+
+.row .left-side ul li a img:hover{
+    border: 1px solid #1a1b1f;
+    transition: 0.2s;
+}
+
+.row .left-side ul li a img:visited{
+    border: 1px solid #1a1b1f;
+    transition: 0.2s;
+}
+
+.row .left-side ul li a img:active{
+    border: 1px solid #1a1b1f;
+    transition: 0.2s;
 }
 
 .product-display{
@@ -82,4 +100,46 @@ body{
 
 .specification .right-side{
     margin-left: 25px;
+}
+
+.footer-icon .icon{
+    margin-top: 50px;
+    background-color: #fff;
+
+}
+
+.footer-icon ul{
+    justify-content: center;
+    list-style: none;
+}
+.footer-icon ul li{
+    margin: 25px 20px;
+}
+.footer-icon a i{
+    font-size: 35px;
+    text-align: center;
+} 
+.footer-icon a{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content{
+    text-align: center;
+    font-family: monsterrat;
+    margin: auto;
+    padding-bottom: 50px;
+    background-color: #fff;
+}
+
+.footer-content ul li{
+    justify-content: center;
+}
+
+.footer-content ul li a{
+    text-decoration: none;
+    color: #00000060;
+    font-weight: 400;
+    font-size: 14px;
 }

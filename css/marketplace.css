@@ -69,6 +69,22 @@ body{
     margin-right: 20px;
 }
 
+@media screen and (max-width:992px){
+    .sidebar{
+        font-family: monsterrat;
+        border: 0px;
+        padding-left: 0px;
+    }
+    .sidebar li a{
+        text-decoration: none;
+        font-size: 13px;
+    }
+    .sidebar li{
+        margin-bottom: 10px;
+    }
+    
+}
+
 .page-content{
     padding-top: 20px;
 }

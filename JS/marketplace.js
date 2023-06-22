@@ -1,21 +1,73 @@
-let sideBar = document.querySelector(".sidebar")
-let sideBarAll = document.querySelector(".sidebar-all")
-let tempSideBar = sideBar.innerHTML
-let hamButton = document.querySelector(".navbar-nav")
-let tempHamButton = hamButton.innerHTML
+
+
 let screenSize = window.matchMedia("(max-width:992px)")
-console.log(hamButton)
-console.log(sideBarAll.children)
+
 function changeLayout(x){
     if(x.matches){
-        hamButton.innerHTML += "<ul class=\"sidebar\">" + sideBar.innerHTML + "</ul>"
-        sideBar.innerHTML = ""
-        changingProducts()
+        let sideBarAll= document.querySelector(".sidebar-all")
+        let navbarContent = document.querySelector(".navbar-nav")
+        if(sideBarAll.children.length!==0){
+          sideBarAll.children[0].remove()  
+        }
+        navbarContent.innerHTML += "<ul class=\"sidebar\">" +
+        "<hr>" + 
+       
+        "<p style=\"font-weight: bold;\">Categories</p>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"laptop\">Thinkpad laptop</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"mainboard\">Mainboards</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"keyboard\">Keyboards</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"memory\">Memory & Storage</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<hr>" + 
+      "</ul>" ;
+      
+        
     }else{
-        sideBar.innerHTML = tempSideBar
-        hamButton.innerHTML = tempHamButton
-        changingProducts()
+        let sideBarAll= document.querySelector(".sidebar-all")
+        console.log(sideBarAll.children)
+        let navbarContent = document.querySelector(".navbar-nav")
+        navbarContent.innerHTML = "<a class=\"nav-link\" aria-current=\"page\" href=\"about.html\">ABOUT</a>" +
+        "<a class=\"nav-link\" href=\"marketplace.html\">MARKETPLACE</a>" +
+        "<a class=\"nav-link\" href=\"community.html\">COMMUNITY</a>" +
+        "<a class=\"nav-link\" href=\"support.html\">SUPPORT</a>";
+
+        sideBarAll.innerHTML += "<ul class=\"list-group sidebar\">" +
+        "<hr>" + 
+       
+        "<p style=\"font-weight: bold;\">Categories</p>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"laptop\">Thinkpad laptop</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"mainboard\">Mainboards</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"keyboard\">Keyboards</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
+          "<a href=\"#0\" rel=\"memory\">Memory & Storage</a>" + 
+          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+        "</li>" + 
+        "<hr>" + 
+      "</ul>" ;
+        
     }
+   
+    changingProducts()
 }
 
 changeLayout(screenSize)
@@ -23,6 +75,7 @@ screenSize.addListener(changeLayout)
 
 
 function changingProducts(){
+    let sideBar = document.querySelector(".sidebar")
     for(let i=2;i<=5;i++){
         let categories = sideBar.children[i].children[0]
         categories.addEventListener('click',function(){
