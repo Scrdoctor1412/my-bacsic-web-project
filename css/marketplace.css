@@ -3,6 +3,10 @@
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
+body{
+    background-color: #f6f9fc;
+}
+
 .navbar{
     font-family: monsterrat;
     background-color: white;
@@ -47,7 +51,7 @@
     top: 114px;
     bottom: 0;
     font-family: monsterrat;
-
+    --bs-list-group-bg: none;
 }
 
 .row>div>ul:hover{

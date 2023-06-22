@@ -1,0 +1,85 @@
+@font-face {
+    font-family: monsterrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: monsterrat;
+    background-color: #f6f9fc;
+}
+
+.navbar{
+    font-family: monsterrat;
+    background-color: white;
+    box-shadow: 1px 1px 6px #888888;
+}
+
+.navbar-brand{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-contact-btn{
+    border: 0;
+    color: white;
+    background-color: #1a1b1f;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-middle-text a{
+   
+    font-size: 12px;
+    color: #00000060;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.row .left-side ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.row .left-side ul li{
+    margin-right: 20px;
+}
+
+.row .left-side ul li a img{
+    width: 75px;
+    height: 75px;
+
+}
+
+.product-display{
+    margin-top: 20px;
+}
+
+.product-display>.right-side{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+    
+
+.product-display>.left-side,
+.product-display>.right-side{
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.product-infor{
+    text-decoration: none;
+    width: 50px;
+}   
+
+
+.product-infor p span{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.specification .right-side{
+    margin-left: 25px;
+}
