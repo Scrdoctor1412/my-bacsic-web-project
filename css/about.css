@@ -50,6 +50,12 @@
     margin: 20px 40px;
 }
 
+@media screen and (max-width:992px) {
+    .about-options-content>div .card{
+        margin: auto;
+    }
+}
+
 .about-options-content>div .card{
     border: 0;
     text-align: center;

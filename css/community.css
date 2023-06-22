@@ -21,6 +21,7 @@
     padding: 10px;
     padding-right: 20px;
     padding-left: 20px;
+    border-radius: 0 0 0 0;
 }
 
 .nav-middle-text a{
@@ -108,4 +109,22 @@
 
 div>nav>.pagination{
     margin-top: 50px;
+}
+
+.categories-btn:hover, .alltags-btn:hover{
+    background-color: #2a1f51;
+}
+
+.categories-btn:active{
+    background-color: #2a1f51;
+}
+
+.categories-btn:visited{
+    background-color: #2a1f51;
+
+}
+
+.row>nav>ul>li>a{
+    text-decoration: none;
+    color: #1a1b1f;
 }
