@@ -3,6 +3,10 @@
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
+body{
+    font-family: monsterrat;
+}
+
 .navbar{
     font-family: monsterrat;
     background-color: white;
@@ -33,69 +37,32 @@
     background-color: #00000060;
 }
 
-.about-options{
-    justify-content: center;
-    background-color: #e4e4e4;
-    
+.about-contents{
+    margin-top: 50px;
 }
-.about-options li a{
-    text-decoration: none;
-    font-family: monsterrat;
-    font-weight: 600;
-    font-size: 20px;
-    color: #1a1b1f;
+
+.row .text{
+    font-size: 1.25rem;
 }
-.about-options li{
-    list-style: none;
-    margin: 20px 40px;
+
+.who-we-are{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.who-we-are>.col-lg-7{
+    flex-wrap: wrap;
+}
+
+.who-we-are>.col-lg-7>.person{
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:992px) {
-    .about-options-content>div .card{
-        margin: auto;
+    .who-we-are>.col-lg-7>.person{
+        margin: 20px auto;
     }
-}
-
-.about-options-content>div .card{
-    border: 0;
-    text-align: center;
-    margin-top: 50px;
-    background-color: #f5f5f5;
-    padding: 10px 10px;
-    --bs-card-border-radius: none;
-}
-
-.about-options-content>div .card img{
-    border-radius: 0 0 0 0;
-}
-
-
-.about-options-content>div .card h3{
-    font-family: monsterrat;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.about-options-content>div .card p{
-    font-family: monsterrat;
-    font-size: 14px;
-    margin-top: 20px;
-}
-
-.more-content{
-    position: relative;
-    width: 503px;
-    height: 250px;
-    margin-top: 20px;
-}
-
-.more-content img{
-    position: absolute;
-   
-}
-
-.more-content h5{
-    position: absolute;
 }
 
 .footer-icon .icon{
