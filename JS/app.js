@@ -8,7 +8,7 @@ function chgLearnMoreContent(x){
           "<li>Ultralight starting weight of just 1.12kg / 2.48lb</li>" + 
           "<li>Super-responsive with twice the memory as previous gen</li>" +
         "</ul>"+
-        "<button>LEARN MORE</button>" +
+        "<button onclick=\"location.href='marketplace.html'\">ORDER NOW</button>" +
         " </div> "
         
     }else{
@@ -19,7 +19,7 @@ function chgLearnMoreContent(x){
           "<li>Ultralight starting weight of just 1.12kg / 2.48lb</li>" + 
           "<li>Super-responsive with twice the memory as previous gen</li>" +
         "</ul>"+
-        "<button>LEARN MORE</button>" +
+        "<button onclick=\"location.href='marketplace.html'\">ORDER NOW</button>" +
         " </div> " +
         " <img src=\"image\/lenovolap1.webp\" alt=\"\" class=\"img-fluid ms-lg-auto col-lg-8 col-sm-12 \"> "
        
