@@ -51,6 +51,14 @@
     margin-top: 30px;
 }
 
+.ques-content{
+    padding-top: 10px;
+}
+
+.ques-content>.col-2,.ques-content>.col-3{
+    margin: auto;
+}
+
 .ques-content>div>i{
     font-size: 45px;
     padding-top: 20px;
@@ -63,6 +71,7 @@
 
 .ques-content>div .ques-info{
     margin-left: 20px;
+    
 }
 
 .footer-icon .icon{
@@ -127,4 +136,14 @@ div>nav>.pagination{
 .row>nav>ul>li>a{
     text-decoration: none;
     color: #1a1b1f;
+}
+
+.btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    background-color: #fff;
+    color: #1a1b1f;
+}
+
+.ques-content:hover{
+    background-color: #eeeeee;
+    border-radius: 10px;
 }

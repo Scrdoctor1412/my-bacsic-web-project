@@ -1,0 +1,12 @@
+body{
+    background-color: #eeeeee;
+    color: #1a1b1f;
+    font-family: monsterrat;
+}
+
+.single-post{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+}

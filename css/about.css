@@ -10,6 +10,7 @@ body{
 .navbar{
     font-family: monsterrat;
     background-color: white;
+    box-shadow: 1px 1px 6px #888888;
 }
 
 .navbar-brand{
