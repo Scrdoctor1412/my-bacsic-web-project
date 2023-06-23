@@ -14,19 +14,19 @@ function changeLayout(x){
        
         "<p style=\"font-weight: bold;\">Categories</p>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"laptop\">Thinkpad laptop</a>" + 
+          "<a href=\"marketplace.html\" rel=\"laptop\">Thinkpad laptop</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"mainboard\">Mainboards</a>" + 
+          "<a href=\"marketplace-2.html\" rel=\"mainboard\">Mainboards</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"keyboard\">Keyboards</a>" + 
+          "<a href=\"marketplace-3.html\" rel=\"keyboard\">Keyboards</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"memory\">Memory & Storage</a>" + 
+          "<a href=\"marketplace-4.html\" rel=\"memory\">Memory & Storage</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<hr>" + 
@@ -47,19 +47,19 @@ function changeLayout(x){
        
         "<p style=\"font-weight: bold;\">Categories</p>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"laptop\">Thinkpad laptop</a>" + 
+          "<a href=\"marketplace.html\" rel=\"laptop\">Thinkpad laptop</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"mainboard\">Mainboards</a>" + 
+          "<a href=\"marketplace-2.html\" rel=\"mainboard\">Mainboards</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"keyboard\">Keyboards</a>" + 
+          "<a href=\"marketplace-3.html\" rel=\"keyboard\">Keyboards</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
-          "<a href=\"#0\" rel=\"memory\">Memory & Storage</a>" + 
+          "<a href=\"marketplace-4.html\" rel=\"memory\">Memory & Storage</a>" + 
           "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
         "</li>" + 
         "<hr>" + 
