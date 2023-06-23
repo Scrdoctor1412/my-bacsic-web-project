@@ -24,7 +24,22 @@ function chgLearnMoreContent(x){
         " <img src=\"image\/lenovolap1.webp\" alt=\"\" class=\"img-fluid ms-lg-auto col-lg-8 col-sm-12 \"> "
     }
     changeLayout()
+    displayCarousel()
+    console.log(carousel)
 }
+
+function displayCarousel(){
+    if(screenSize.matches){
+        let tempCarousel = document.querySelector(".slide")
+        tempCarousel.innerHTML = ""
+    }else{
+        let tempCarousel = document.querySelector(".slide")
+        if(tempCarousel.children.length===0){
+           tempCarousel.innerHTML += carousel 
+        }  
+    }
+}
+
 function changeLayout(){
     if(screenSize.matches){
         let navbar = document.querySelector(".navbar .container-fluid")
@@ -42,9 +57,10 @@ function changeLayout(){
     }
 }
 
-
-
+let carousel = document.querySelector(".slide").innerHTML
 let screenSize = window.matchMedia("(max-width:992px)");
 console.log(screenSize)
 chgLearnMoreContent(screenSize)
 screenSize.addListener(chgLearnMoreContent)
+
+

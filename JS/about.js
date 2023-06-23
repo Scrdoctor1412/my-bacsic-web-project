@@ -1,5 +1,18 @@
 let screenSize = window.matchMedia("(max-width:992px)")
-console.log(screenSize)
+let carousel = document.querySelector(".slide").innerHTML
+
+
+function displayCarousel(){
+    if(screenSize.matches){
+        let tempCarousel = document.querySelector(".slide")
+        tempCarousel.innerHTML = ""
+    }else{
+        let tempCarousel = document.querySelector(".slide")
+        if(tempCarousel.children.length===0){
+           tempCarousel.innerHTML += carousel 
+        }  
+    }
+}
 
 
 function changeLayout(){
@@ -19,6 +32,7 @@ function changeLayout(){
         "<a class=\"nav-link\" href=\"support.html\">SUPPORT</a>"
         navbar.innerHTML += "<button class=\"nav-contact-btn\" onclick=\"location.href='support-form.html'\" id=\"contact-btn\">CONTACT US</button>"
     }
+    displayCarousel()
 }
 
 changeLayout(screenSize)
