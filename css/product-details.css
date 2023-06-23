@@ -36,6 +36,10 @@ body{
     margin-left: 20px;
 }
 
+.row .left-side{
+    margin-right: 20px;
+}
+
 .row .left-side ul{
     list-style: none;
     padding-left: 0;
@@ -76,9 +80,15 @@ body{
 
 .product-display>.right-side{
     padding-top: 20px;
-    margin-left: 20px;
-}
     
+}
+
+@media screen and (max-width:992px) {
+    .product-display>.right-side{
+        padding-bottom: 20px;
+        margin-left: 0px;
+    }
+}
 
 .product-display>.left-side,
 .product-display>.right-side{

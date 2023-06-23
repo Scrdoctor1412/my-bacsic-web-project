@@ -31,11 +31,11 @@ function swapContentLayout(bool){
         "<h3>Knowledge Base</h3>" +
         "<p>A collection of frequently asked questions around ordering, product setup, software debugging, and troubleshooting.</p>" +
         "<hr>" +
-        "<a href=\"#0\">Pre-orders</a>" +
+        "<a href=\"pre-order.html\">Pre-orders</a>" +
         "<hr>" + 
-       " <a href=\"#0\">Account & Profile</a>" + 
+       " <a href=\"acc-and-profile.html\">Account & Profile</a>" + 
         "<hr>" +
-        "<a href=\"#0\">Products</a>" +
+        "<a href=\"support-product.html\">Products</a>" +
         "<hr>" +
       "</div>"+ 
       "<div class=\"col-lg-7 text-center knowledge-base-img\">" +
