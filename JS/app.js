@@ -44,7 +44,9 @@ function changeLayout(){
     if(screenSize.matches){
         let navbar = document.querySelector(".navbar .container-fluid")
         let navbarContent = document.querySelector(".navbar-nav")
-        navbar.children[3].remove()
+        if(navbar.children.length!==3){
+          navbar.children[3].remove()
+        }
         navbarContent.innerHTML += "<button class=\"nav-contact-btn\" onclick=\"location.href='support-form.html'\" id=\"contact-btn\">CONTACT US</button>"
     }else{
         let navbar = document.querySelector(".navbar .container-fluid")

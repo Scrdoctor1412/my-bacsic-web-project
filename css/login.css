@@ -3,20 +3,22 @@
     src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 @keyframes slideInLeft {
-    0% {
+    from {
       transform: translateX(-100%);
     }
-    100% {
+    to {
       transform: translateX(0);
     }
 }
 
 @keyframes popup {
-    0%{
+    from{
         transform: translate(-50%,-50%) scale(1);
+        opacity: 0;
     }
-    100%{
+    to{
         transform: translate(-50%,-50%) scale(1.25);
+        opacity: 1;
     }
 }
 
@@ -33,7 +35,7 @@ body{
     opacity: 1;
     transform: translate(-50%,-50%) scale(1);
     /* transition: top 0ms ease-in-out 200ms,opacity 200ms ease-in-out 0ms,transform 20ms ease-in-out 0ms; */
-    animation: 0.5s ease-out 0.2s 1 popup;
+    animation: 0.5s ease popup;
     background-color: white;
     border: 1px solid black;
     padding: 50px 50px;
