@@ -52,15 +52,15 @@ function changeLayout(x){
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
           "<a href=\"marketplace-2.html\" rel=\"mainboard\">Mainboards</a>" + 
-          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+          "<span class=\"badge bg-primary rounded-pill\">1</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
           "<a href=\"marketplace-3.html\" rel=\"keyboard\">Keyboards</a>" + 
-          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+          "<span class=\"badge bg-primary rounded-pill\">1</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
           "<a href=\"marketplace-4.html\" rel=\"memory\">Memory & Storage</a>" + 
-          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+          "<span class=\"badge bg-primary rounded-pill\">2</span>" + 
         "</li>" + 
         "<hr>" + 
       "</ul>" ;
