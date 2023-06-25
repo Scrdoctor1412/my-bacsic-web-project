@@ -10,40 +10,17 @@
   <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/my-animation.css">
+  <link rel="stylesheet" href="css/back-to-top.css">
   <link rel="icon" href="image/Maple.png">
   <title>My laptop page</title>
-  <!-- Start of Async Drift Code -->
-<script>
-  "use strict";
-  
-  !function() {
-    var t = window.driftt = window.drift = window.driftt || [];
-    if (!t.init) {
-      if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-      t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-      t.factory = function(e) {
-        return function() {
-          var n = Array.prototype.slice.call(arguments);
-          return n.unshift(e), t.push(n), t;
-        };
-      }, t.methods.forEach(function(e) {
-        t[e] = t.factory(e);
-      }), t.load = function(t) {
-        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-        var i = document.getElementsByTagName("script")[0];
-        i.parentNode.insertBefore(o, i);
-      };
-    }
-  }();
-  drift.SNIPPET_VERSION = '0.3.1';
-  drift.load('auw2imt9cpai');
-  </script>
-  <!-- End of Async Drift Code -->
 </head>
 
 <body>
+
+  <!-- BACK TO TOP BUTTN -->
   <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up" style="color: white;"></i></button>
+  <!-- END OF BACK TO TOP BUTTON -->
+
   <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg bg-body-light sticky-top ps-0 pe-0">
     <div class="container-fluid">
@@ -245,7 +222,7 @@
     </div>
 
 
-    <!--  -->
+    <!-- END OF MORE INFO CONTENT -->
 
     <!-- Footer icon-->
     <div class="row footer-icon ">
@@ -276,8 +253,11 @@
     </div>
     <!--  -->
 
-    <!-- Footer content -->
-    <div class="row footer-content">
+  </div>
+
+  <div class="container-fluid">
+     <!-- Footer content -->
+     <div class="row footer-content">
       <div class="col-md-3 footer-content">
         <h3>About lenovo</h3>
         <ul class="list-unstyled">
@@ -347,23 +327,22 @@
         </ul>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-3 footer-content text-center">
+    <div class="row footer-content" >
+      <div class="col-md-3 text-center">
         © 2023 Thinkpad Computer Inc
       </div>
-      <div class="col-md-3 footer-content text-start">
+      <div class="col-md-3  text-start">
         &zwnj; 
       </div>
-      <div class="col-md-3 footer-content text-start">
+      <div class="col-md-3 text-start">
         &zwnj; 
       </div>
-      <div class="col-md-3 footer-content text-start">
+      <div class="col-md-3 text-start">
         &zwnj; 
       </div>
     </div>
     <!-- END OF FOOTER CONTENT -->
   </div>
-
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
@@ -373,6 +352,7 @@
     integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
     crossorigin="anonymous"></script>
   <script src="JS/app.js"></script>
+  <script src="JS/back-to-top.js"></script>
 </body>
 
 </html>

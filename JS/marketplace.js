@@ -19,15 +19,15 @@ function changeLayout(x){
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
           "<a href=\"marketplace-2.html\" rel=\"mainboard\">Mainboards</a>" + 
-          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+          "<span class=\"badge bg-primary rounded-pill\">1</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
           "<a href=\"marketplace-3.html\" rel=\"keyboard\">Keyboards</a>" + 
-          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+          "<span class=\"badge bg-primary rounded-pill\">1</span>" + 
         "</li>" + 
         "<li class=\"list-group-item d-flex justify-content-between align-items-center\">" + 
           "<a href=\"marketplace-4.html\" rel=\"memory\">Memory & Storage</a>" + 
-          "<span class=\"badge bg-primary rounded-pill\">6</span>" + 
+          "<span class=\"badge bg-primary rounded-pill\">2</span>" + 
         "</li>" + 
         "<hr>" + 
       "</ul>" ;
@@ -66,42 +66,31 @@ function changeLayout(x){
       "</ul>" ;
         
     }
-   
-    changingProducts()
+    changeLogCart()
 }
+
+function changeLogCart(){
+  if(screenSize.matches){
+    let loginBtn = document.querySelector("#login-btn")
+    let cartBtn = document.querySelector("#cart-btn")
+    loginBtn.innerHTML += "<span> Login </span>"
+    cartBtn.innerHTML += "<span> Shopping cart </span>"
+  }else{
+    let loginBtn = document.querySelector("#login-btn")
+    let cartBtn = document.querySelector("#cart-btn")
+    console.log(cartBtn + " " + loginBtn)
+    if(loginBtn.children.length === 2 && cartBtn.children.length === 2){
+      loginBtn.children[1].remove()
+      cartBtn.children[1].remove()
+    }
+  }
+}
+
 
 changeLayout(screenSize)
 screenSize.addListener(changeLayout)
 
 
-function changingProducts(){
-    let sideBar = document.querySelector(".sidebar")
-    for(let i=2;i<=5;i++){
-        let categories = sideBar.children[i].children[0]
-        categories.addEventListener('click',function(){
-            let cardImg = document.querySelectorAll(".card")
-            let headings = document.querySelector("#cat-headings")
-            let dotTail = ""
-            if(categories.rel === "laptop"){
-                dotTail = "png"
-                headings.innerHTML = "Thinkpad Laptop"
-            }else if(categories.rel === "mainboard"){
-                dotTail = "jpg"
-                headings.innerHTML = "Mainboards"
-            }else if(categories.rel === "keyboard"){
-                dotTail = "avif"
-                headings.innerHTML = "Thinkpad Keyboards"
-            }else if(categories.rel === "memory"){
-                dotTail = "webp"
-                headings.innerHTML = "Memories and Storage"
-            }
-            for(let j=0;j<cardImg.length;j++){
-                cardImg[j].children[0].setAttribute('src',`image/marketplace/${categories.rel}-1.${dotTail}`)
-            }
-        })
-    
-    }
-}
 
 
 
