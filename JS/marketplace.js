@@ -78,7 +78,6 @@ function changeLogCart(){
   }else{
     let loginBtn = document.querySelector("#login-btn")
     let cartBtn = document.querySelector("#cart-btn")
-    console.log(cartBtn + " " + loginBtn)
     if(loginBtn.children.length === 2 && cartBtn.children.length === 2){
       loginBtn.children[1].remove()
       cartBtn.children[1].remove()
